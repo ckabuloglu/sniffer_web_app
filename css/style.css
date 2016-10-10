@@ -1,0 +1,148 @@
+body {
+    background: #2BCEDC;/* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(#2BCEDC, #0D1D58); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#2BCEDC, #0D1D58); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#2BCEDC, #0D1D58); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#2BCEDC, #0D1D58); /* Standard syntax */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+#login_box {
+    position: relative;
+    margin: 0 auto;
+    max-width: 35%;
+    text-align: center;
+}
+
+#menu_item {
+    padding-top: 50px;
+    background: #FFFFFF;
+}
+
+.btn-primary {
+    color: #ffffff;
+}
+
+/* Login */
+
+#formbox {
+    width: 400px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: #DADAEA;
+    border-radius: 5px;
+}
+
+#google_login {
+    width: 400px;
+}
+
+#logo {
+    margin: auto;
+    width: 100%;
+    margin-top: 8%;
+}
+
+#tagline {
+    color: #343434;
+    box-sizing: content-box;
+}
+
+#forgotLink {
+    text-align: right;
+    font-size: 13px;
+}
+
+/* Side and Navbar */
+
+.sidebar {
+    font-size: 13px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #11385A;
+}
+
+.nav-sidebar a:hover {
+    background-color: red;
+}
+
+.sidebar_item {
+    color: #FFFFFF;
+}
+
+.sidebar_item:hover {
+    color: #FFFFFF;
+    background-color: #11385A;
+}
+
+#li_logout {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+/* Main Site */
+
+#dashboard {
+    background-color: #FFFFFF;
+}
+
+#location_div {
+    background-color: #D8D8D8;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#map {
+    height: 600px;
+    width: 90%;
+    border: solid black 1px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/*#user_form {
+    align: center;
+    padding: 10px;
+}
+
+#user_form_table {
+    align: center;
+    align-items: center;
+}*/
+
+/*	Making the form responsive. Remove this media query
+    if you don't need the form to work on mobile devices. */
+
+@media (max-width: 700px) {
+
+    #login_box {
+        position: relative;
+        margin: 0 auto;
+        max-width: 80%;
+        text-align: center;
+    }
+
+    #formbox {
+        width: 400px;
+        border: 3px solid black;
+        padding: 10px;
+        background-color: #DADAEA;
+        border-radius: 5px;
+    }
+
+    #logo {
+        margin: auto;
+        width: 100%;
+        margin-top:20%;
+    }
+
+}
